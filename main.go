@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/devfullcycle/go-intensivo-jul/internal/infra/database"
-	"github.com/devfullcycle/go-intensivo-jul/internal/usecase"
+	"github.com/dlv/go-intensivo-jul/internal/infra/database"
+	"github.com/dlv/go-intensivo-jul/internal/usecase"
 	_ "github.com/mattn/go-sqlite3"
 )
 
@@ -18,7 +18,7 @@ func main() {
 	uc := usecase.NewCalculateFinalPrice(orderRepository)
 
 	input := usecase.OrderInput{
-		ID:    "12345",
+		ID:    "123456",
 		Price: 10.0,
 		Tax:   1.0,
 	}

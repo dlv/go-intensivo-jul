@@ -3,7 +3,6 @@ module github.com/dlv/go-intensivo-jul
 go 1.20
 
 require (
-	github.com/devfullcycle/go-intensivo-jul v0.0.0-20230719004407-3cf68d52bcda
 	github.com/mattn/go-sqlite3 v1.14.17
 	github.com/stretchr/testify v1.8.4
 )
